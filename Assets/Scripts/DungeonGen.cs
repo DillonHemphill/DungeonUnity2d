@@ -34,8 +34,15 @@ public class DungeonGen : MonoBehaviour
         public int width, height;
     }
     [SerializeField]
-    public int width = 24;
-    public int height = 90;
+    private int width = 24;
+    [SerializeField]
+    private int height = 90;
+    [SerializeField]
+    private int numbOfStructures;
+    [SerializeField]
+    private int minRoomSize;
+    [SerializeField]
+    private int maxRoomSize;
     private List<Tile> tiles;
     private List<Rect> rooms;
     private List<Rect> exits;
@@ -49,7 +56,7 @@ public class DungeonGen : MonoBehaviour
         }
         rooms = new List<Rect>(width * height);
         exits = new List<Rect>(width * height);
-        Generate(20);
+        Generate(numbOfStructures);
         PrintObjects();
     }
 
@@ -218,8 +225,6 @@ public class DungeonGen : MonoBehaviour
 
     bool makeRoom(int x, int y, Direction dir, bool firstRoom = false)
     {
-        const int minRoomSize = 3;
-        const int maxRoomSize = 6;
 
         Rect room = new Rect();
         room.width = randomInt(minRoomSize, maxRoomSize);
