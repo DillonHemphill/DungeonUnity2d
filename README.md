@@ -8,8 +8,9 @@ Steps to installing
 
 Variables can be adjusted on script as such
 
-Width = Width of map
-Height = Height of map
-Number of structures = Number of structures to be generated
-MinRooms = Min amount of rooms
-MaxRooms = Max amount of rooms 
+- Width = Width of map
+- Height = Height of map
+- Number of structures = Number of structures to be generated
+- MinRooms = Min amount of rooms
+- MaxRooms = Max amount of rooms
+
