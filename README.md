@@ -1,6 +1,6 @@
 # DungeonUnity2d
 A unity 2d dungon generator
-![]({{site.baseurl}}/http://i.imgur.com/F0W8wsS.jpg)
+![]({{site.baseurl}}/http://i.imgur.com/F0W8wsS)
 
 Steps to installing
 1. Clone or download zip
