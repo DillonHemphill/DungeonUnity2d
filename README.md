@@ -13,4 +13,8 @@ Variables can be adjusted on script as such
 - Number of structures = Number of structures to be generated
 - MinRooms = Min amount of rooms
 - MaxRooms = Max amount of rooms
+- MinCorridorLength = Min corridor length
+- MaxCorridorLength = Max corridor length
+- RoomChance = Chance of room spawning in percentage %
+- All colors for each tile can be set
 
