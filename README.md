@@ -4,7 +4,7 @@ A unity 2d dungon generator
 
 Steps to installing
 1. Clone or download zip
-2. Open with unity and open scene
+2. Open with unity(Unity v5) and open scene
 
 Variables can be adjusted on script as such
 
